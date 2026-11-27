@@ -1,0 +1,15 @@
+# Location fees and add-ons
+
+## Location detail
+
+Resolve the exact destination and authority, currency, tariff year, visitor/residency class, vehicle category and actual admission age. A national park, marine reserve, conservancy, campsite, gateway and an airport with similar names can represent different fees. Identify the requested visitor class rather than mixing resident and non-resident columns. Source prices and ages by authority/park; free children need a stated eligibility policy. A minimum admitted age is never encoded as a free lower band.
+
+Use `contract_type=person` for a per-visitor entry fee with blank description. A genuine group/vehicle fee uses `group` with a stable, nonempty commercial description. Person rules match by resolved location and type; group rules also use the case-insensitive description. The template has no pax columns. Keep the location detail's negotiated currency/pricing consistent. Do not manufacture contract tax from a location or country's name. Preserve a material tax discrepancy for owner review.
+
+`cost` is base entry, `overnight` and `camping` are distinct numeric additive supplements on the applicable row. For entry 80, bed-night 15 and additive camping 5, store 80, 15 and 5. A ticket covering 24 hours is not inherently an overnight surcharge. Do not total mutually exclusive campsite alternatives, or bundle a distinct activity/permit into entry. Use numeric zero for explicitly absent/nonapplicable supplements, and hold a known separately charged unresolved amount. Split when any applicable cost or supplement changes. Verify no overlapping person/group fee families; preserve true gaps. Year rollover needs explicit direction, preserving month/day and all other fields, detecting collisions and checking leap dates.
+
+## Add-ons
+
+Use for a commercially distinct optional extra. Identify scope `addon_type` (such as local or global, when supported) independently from `addon_price_type` (`person` or `group`). Whole-group price and individual price are different units; retain whole-group charges intact. A package inclusion does not create an additional charge. Establish a real name, meaningful subtitle and description, currency, markup basis, valid dates, age/pax bands and price. Maintain up to four feature/description pairs, filling both members or leaving both empty. Avoid writing tariff values only into descriptive text.
+
+Repeated rows use identical master wording and feature pairs. Bundle/currency grouping uses name + type + price type, while overlap checks can group by case-insensitive name alone. A single-record match can require name and subtitle: verify the target ID and features before correcting a rate. Do not introduce subtitle variations, scope or spelling tweaks to evade a real collision. Create separate products when the source distinguishes different services. A percentage needs an explicit base and a supported fixed payable amount for the eligible period. Check that each allowed age/party/date combination selects at most one rule, including zero-cost rows; a legitimate zero still requires currency and the other applicable fields.

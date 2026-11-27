@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meister PDF to Contract"
+  short_description: "Convert supplier terms into reviewable MeisterCRM rates"
+  default_prompt: "Use $meister-pdf-to-contract to help me with this request: Prepare the rates from this supplier document and show me what needs review."

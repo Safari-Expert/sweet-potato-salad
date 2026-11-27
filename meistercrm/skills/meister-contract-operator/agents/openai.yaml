@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meister Contract Operator"
+  short_description: "Import supplier rates and verify the saved catalog"
+  default_prompt: "Use $meister-contract-operator to help me with this request: Check this reviewed rate workbook against my catalog and show the proposed import."

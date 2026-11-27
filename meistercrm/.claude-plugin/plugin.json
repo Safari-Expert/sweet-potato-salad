@@ -1,0 +1,14 @@
+{
+  "name": "meistercrm",
+  "displayName": "MeisterCRM",
+  "version": "0.4.1",
+  "description": "Operate MeisterCRM and prepare supplier contracts for your travel catalog.",
+  "author": {
+    "name": "MeisterCRM"
+  },
+  "homepage": "https://www.meistercrm.com/en",
+  "icon": "./assets/meistercrm.png",
+  "supportUrl": "https://www.meistercrm.com/en/contact",
+  "privacyPolicyUrl": "https://www.meistercrm.com/en/privacy",
+  "termsOfServiceUrl": "https://www.meistercrm.com/en/terms"
+}
