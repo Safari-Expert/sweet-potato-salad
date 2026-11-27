@@ -1,0 +1,4 @@
+interface:
+  display_name: "Meister Operator"
+  short_description: "Operate MeisterCRM and turn website trips into demo proposals"
+  default_prompt: "Use $meister-operator to work in my connected CRM, onboard my workspace, attach catalog photos through MCP and verify saved pictures and descriptions, or build a demo draft from a trip on my website. Open Approval Gates first."

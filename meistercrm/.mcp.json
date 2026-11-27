@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "meistercrm": {
+      "type": "http",
+      "url": "https://app.meistercrm.com/mcp",
+      "oauth": {
+        "clientId": "meistercrm-claude"
+      }
+    }
+  }
+}

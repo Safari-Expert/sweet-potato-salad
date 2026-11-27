@@ -1,0 +1,40 @@
+MeisterCRM Proprietary Plugin License
+
+Copyright © 2026 MeisterCRM. All rights reserved.
+
+This license covers the MeisterCRM material in this bundle, including its
+skills, instructions, scripts, templates, configuration, documentation and
+brand assets. Third-party material remains subject to its applicable terms.
+
+Authorized use. MeisterCRM grants authorized MeisterCRM users a limited,
+non-exclusive, non-transferable and non-sublicensable license to install and
+run the unmodified bundle in supported Claude products solely to operate
+MeisterCRM within their authorized workspaces. This includes the copies and
+processing technically required for that use. The license lasts while the
+user has authorized access and complies with these terms.
+
+Restrictions. Except as expressly permitted here, under applicable law, or
+with MeisterCRM's prior written permission, you may not copy, redistribute,
+republish, sell, sublicense, modify, translate or create derivative works from
+the bundle or any part of it. You may not extract or reuse its skill
+instructions, templates or scripts in another product, service or agent. You
+may not use the bundle or extracts from it to train, fine-tune, distill or
+evaluate AI models or to build datasets for those purposes. Preserve all
+copyright and attribution notices. No right to use MeisterCRM trademarks is
+granted.
+
+Platform terms. GitHub and its users retain the permissions granted by
+GitHub's applicable terms for content in a public repository. Anthropic may
+host, copy, inspect, test, list, update and distribute the official bundle
+as needed to provide its plugin directory and supported Claude products.
+These terms preserve any rights granted under applicable platform terms.
+
+Data and outputs. This license applies to the bundle. It does not claim
+ownership of your data or the business records you produce using the bundle.
+Copies of bundle material remain subject to this license.
+
+Termination. The authorized-use license ends when your authorized access
+ends or you breach these terms. On termination, stop using the bundle and
+remove installed copies under your control, subject to applicable law and
+platform terms. MeisterCRM reserves all rights that this license does not
+expressly grant.
